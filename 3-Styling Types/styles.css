@@ -2,3 +2,10 @@
 {
     background-color: skyblue;
 }
+
+
+/* fullstop is used with classname to apply styles to those elements who have that class */
+.howtostyle      
+{
+    color:blue;
+}
