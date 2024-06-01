@@ -1,0 +1,74 @@
+/* element selector 
+div 
+{
+     border-color: blue;
+    border-width: 2px;
+    border-style: solid; 
+}*/
+
+
+li
+{
+    color:red;
+}
+ 
+/* class selector
+.red
+{
+    color:red;
+} */
+
+
+/* child selector */
+li>a
+{
+    color:red;
+}
+
+/* id selector---> select element uniquely */
+#main
+{
+    background-color: pink;
+}
+
+
+
+/* --------------------------------------------------- */
+
+#div3, #div4
+{
+    border-color: red;
+    border-style:dotted;
+    border-width: 2px;
+} 
+
+
+
+/* child selector 
+div>div>p
+
+descendant selector 
+div div p
+{ 
+background-color: blue;
+}
+
+general selector
+h1~p
+{
+    background-color: pink;
+} 
+
+adjacent selector
+h1+p
+{
+    background-color: pink;
+}
+*/
+
+
+
+
+
+
+
