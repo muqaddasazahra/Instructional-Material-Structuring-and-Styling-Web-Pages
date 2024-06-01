@@ -1,22 +1,28 @@
-/* element selector 
-div 
+/* element selector ---> selects all element of that type on page
+div    --->selects all div elements on page
 {
      border-color: blue;
     border-width: 2px;
     border-style: solid; 
 }*/
 
-
 li
 {
     color:red;
 }
- 
+
+
+/* ------------------------------------------------------------------------------- */
+
+
 /* class selector
 .red
 {
     color:red;
 } */
+
+
+/* ------------------------------------------------------------------------------- */
 
 
 /* child selector */
@@ -25,46 +31,60 @@ li>a
     color:red;
 }
 
+/* ------------------------------------------------------------------------------- */
+
 /* id selector---> select element uniquely */
 #main
 {
     background-color: pink;
 }
 
+/* ----------------------------------------------------------------------------- */
 
-
-/* --------------------------------------------------- */
-
-#div3, #div4
+#div3, #div4  /*same can be achieved through div>div */
 {
     border-color: red;
     border-style:dotted;
     border-width: 2px;
 } 
 
+/* --------------------------------------------------------------------------- */
 
 
-/* child selector 
+/* child selector */
 div>div>p
+{
+    background-color: skyblue;
+}
 
+/* ------------------------------------------------------------------------- */
+
+/*
 descendant selector 
 div div p
 { 
 background-color: blue;
 }
+*/
 
-general selector
-h1~p
+/* --------------------------------------------------- -------------------*/
+
+/* general selector ---> selects all sibling elements of that type
+h1~p  selects all p siblings of h
 {
-    background-color: pink;
+    color:blue;
 } 
+*/
 
-adjacent selector
-h1+p
+/* ----------------------------------------------------------------------- */
+
+
+/* adjacent selector---> selects only the immediate sibling  */
+h1+p  /*selects the immediate sibling p of h */
 {
     background-color: pink;
 }
-*/
+
 
 
 
