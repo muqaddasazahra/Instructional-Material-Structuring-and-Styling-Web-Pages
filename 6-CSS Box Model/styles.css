@@ -1,0 +1,56 @@
+
+/* Box model --->content, padding, border, margin 
+padding--> space inside border
+margin-->space outside border*/
+
+form
+{  
+    width:fit-content;
+
+    /* border */
+    border-width: 10px;
+    border-color: skyblue;
+    border-style: groove;
+
+     /* padding-top:50px;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-bottom: 50px; */
+
+     /* top right bottom left */
+     padding: 20px 50px 200px 5px;
+
+     /* top right bottom left=right */
+     padding: 20px 50px 200px;
+
+     /* topbottom rightleft */
+     padding: 50px 100px;
+
+
+     /* border */
+     margin-left: 35%;
+     margin-top: 150px;
+     
+  
+     
+}
+
+#name
+{
+    margin-bottom: 10px;
+}
+
+#password
+{
+    margin-bottom: 10px;
+}
+
+#male
+{
+    margin-top: 10px;
+}
+
+#file
+{
+    margin-top: 10px;
+}
