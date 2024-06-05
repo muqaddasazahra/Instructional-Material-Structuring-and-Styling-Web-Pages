@@ -1,0 +1,43 @@
+body
+{
+    border: 7px groove skyblue;
+    width:40%;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+#main
+{   
+    color: #568497;
+    text-align: center;
+}
+#mainPara
+{
+background-color: #cbeff7;
+padding:20px;
+border-radius: 20px;
+text-align: justify ;
+text-align-last: center;
+}
+
+h2
+{   
+    /* text-decoration */
+    text-decoration-line:underline;
+    text-decoration-color: skyblue;
+    text-decoration-thickness: 5px;
+    text-decoration-style: solid;
+
+    /* text-transform */
+    text-transform: uppercase;
+    
+    /* text-shadow */
+    text-shadow: 2px 2px 5px skyblue ;
+
+}
+
+section>p
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
