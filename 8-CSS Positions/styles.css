@@ -1,0 +1,58 @@
+/* static--->normal flow of page , normal position*/
+
+div
+{
+    height:150px;
+    width:150px;
+    border-radius: 50px;
+    background-color: yellow;
+}
+#redgrandparent
+{
+    background-color: skyblue;
+   padding: 200px;
+   
+}
+#redparent
+{
+    background-color: pink;
+    padding: 100px;
+   
+    
+}
+#red
+{
+    background-color: red;
+
+    /* relative--->element position relative to its original position, 
+                others element will not fill the gap 
+    position:relative;
+    bottom:230px;*/
+
+
+
+    /* aboslute--->other elements fill the gap */
+    position: absolute;
+    left:50px;
+    top: 200px;
+  
+
+    /* fixed--->relative to viewport 
+           ---->other elements filll the gap
+    position: fixed;
+    */
+     
+    /* sticky--> 
+    position:sticky;
+    top:100px;*/
+
+    
+
+
+}
+
+
+#purple
+{
+    background: purple;
+}
