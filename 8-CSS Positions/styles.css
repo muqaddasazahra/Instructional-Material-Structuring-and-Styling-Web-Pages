@@ -1,3 +1,4 @@
+
 /* static--->normal flow of page , normal position*/
 
 div
@@ -17,6 +18,7 @@ div
 {
     background-color: pink;
     padding: 100px;
+    position: relative;
    
     
 }
@@ -31,7 +33,8 @@ div
 
 
 
-    /* aboslute--->other elements fill the gap */
+    /* aboslute--->other elements fill the gap
+               ---->relative to nearest positioned ancestor */
     position: absolute;
     left:50px;
     top: 200px;
@@ -42,7 +45,7 @@ div
     position: fixed;
     */
      
-    /* sticky--> 
+    /* sticky--moves and sticks when offset value is reached> 
     position:sticky;
     top:100px;*/
 
