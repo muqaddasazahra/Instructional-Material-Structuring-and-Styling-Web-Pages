@@ -1,0 +1,49 @@
+div
+{
+    height: 100px; 
+    width: 100px;
+    border: 2px solid yellow;
+    background-color: skyblue;
+}
+#parentdiv
+{
+    background-color: pink;
+    width: 100%;
+    height: 90vh;
+    
+    
+
+    display: flex;   /*direction---> by defauly row */
+   
+    /* justify-content---main axis  
+    align-items------ cross axis  
+
+    direction row: 
+        main axis--row 
+        cross axis--col
+
+    direction--col:
+        main-axis---col
+        cross-axis--row */
+
+
+    /*-------------------Alignment----------------- */
+
+    /* justify-content---main axis---- start end center space(between,around,evenly) */
+
+    /* align-items----cross axis-----start end center stretch baseline
+                  -------------------bydeafault--stretch */
+
+    /*align-self-------cross axis-----start end center stretch baseline
+                      -------------------bydeafault--stretch */;
+    
+    /* align-content-----crossaxis------controls space between flex lines 
+                    --------------------values--all values of justify content and align-items except baseline*/
+    
+   
+
+   
+    
+}
+
+

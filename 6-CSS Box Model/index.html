@@ -5,87 +5,90 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form id="form">
+    <div>
+        <form id="form">
      
-    <!-- -----------------------text input ------------->
-
-    <label for="name">First Name:</label>  
-    <input id="name" name="name" type="text" required> <br> <!-- inline---element does not start from new line -->
-    <!-- name=value 
-    name=abc -->
-
-    <!-- ----------------------password input ---------------------->
-
-    <label for="password">Password</label>
-    <input id="password" name="password" type="password"> <br>
-    <!-- name=value
-    password=abc -->
-
-   <!-- -------------------------email --------------------------->
-
-   <label for="email">Email</label>
-   <input id="email" type="email"> <br>
-
-    <!-- -------------------Radio Input----------------------- -->
-    <!-- Use the same value of name for all radio elements, otherwise multiple radio elements can be selected -->
-
-    <label for="">Gender</label>
-    <input id="male" name="gender" value="male" type="radio">
-    <label for="male">Male</label>
-        <!-- name=value
-          gender=male -->
-
-    <input id="female" name="gender" value="female" type="radio">
-    <label for="female">Female</label> <br>
-    <!-- gender=female -->
-
-
-    <!----------------- Checkbox --------------------------->
-    
-    <label for="">Gender</label>
+            <!-- -----------------------text input ------------->
+        
+            <label for="name">First Name:</label>  
+            <input id="name" name="name" type="text" required> <br> <!-- inline---element does not start from new line -->
+            <!-- name=value 
+            name=abc -->
+        
+            <!-- ----------------------password input ---------------------->
+        
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password"> <br>
+            <!-- name=value
+            password=abc -->
+        
+           <!-- -------------------------email --------------------------->
+        
+           <label for="email">Email</label>
+           <input id="email" type="email"> <br>
+        
+            <!-- -------------------Radio Input----------------------- -->
+            <!-- Use the same value of name for all radio elements, otherwise multiple radio elements can be selected -->
+        
+            <label for="">Gender</label>
+            <input id="male" name="gender" value="male" type="radio">
+            <label for="male">Male</label>
+                <!-- name=value
+                  gender=male -->
+        
+            <input id="female" name="gender" value="female" type="radio">
+            <label for="female">Female</label> <br>
+            <!-- gender=female -->
+        
+        
+            <!----------------- Checkbox --------------------------->
+            
+            <label for="">Gender</label>
+           
+            <input id="matric" name="degree" value="matric" type="checkbox" checked>
+            <label for="matric">Matric</label>
+        
+            
+            <input id="inter" name="degree" value="inter" type="checkbox">
+            <label for="inter">Inter</label>
+        
+            
+            <input id="bs" name="degree" value="bs" type="checkbox">
+            <label for="bs">Bachelor</label> <br>
+        
+        
+            <!--------------------- Select from options ------------->
+        
+            <label for="degree">Select degree</label>
+            <select name="degree" id="degree">
+                <option value="matric">Matric</option>
+                <option value="inter">Inter</option>
+                <option value="bs">BS</option>
+            </select>
+            <br>
+        
+        
+            <!-------------------- file input ---------------------->
+        
+            <input type="file" id="file"> <br>
+        
+            <!---------------- -----date --------------------------->
+        
+        
+            <label for="date">Date</label>
+            <input id="date" type="date"> <br>
+        
+        
+           <!------------------- url ---------------------------->
+        
+            <input type="url"> <br>
+        
+        
+            <input type="submit">
+            <
+            
+            </form>
+    </div>
    
-    <input id="matric" name="degree" value="matric" type="checkbox" checked>
-    <label for="matric">Matric</label>
-
-    
-    <input id="inter" name="degree" value="inter" type="checkbox">
-    <label for="inter">Inter</label>
-
-    
-    <input id="bs" name="degree" value="bs" type="checkbox">
-    <label for="bs">Bachelor</label> <br>
-
-
-    <!--------------------- Select from options ------------->
-
-    <label for="degree">Select degree</label>
-    <select name="degree" id="degree">
-        <option value="matric">Matric</option>
-        <option value="inter">Inter</option>
-        <option value="bs">BS</option>
-    </select>
-    <br>
-
-
-    <!-------------------- file input ---------------------->
-
-    <input type="file" id="file"> <br>
-
-    <!---------------- -----date --------------------------->
-
-
-    <label for="date">Date</label>
-    <input id="date" type="date"> <br>
-
-
-   <!------------------- url ---------------------------->
-
-    <input type="url"> <br>
-
-
-    <input type="submit">
-    <
-    
-    </form>
 </body>
 </html>
