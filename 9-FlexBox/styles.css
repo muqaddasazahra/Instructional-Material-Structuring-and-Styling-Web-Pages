@@ -1,7 +1,7 @@
 div
 {
-    height: 100px; 
-    width: 100px;
+    height: 500px; 
+    /* width: 100px; */
     border: 2px solid yellow;
     background-color: skyblue;
 }
@@ -14,7 +14,7 @@ div
     
 
     display: flex;   /*direction---> by defauly row */
-   
+    
     /* justify-content---main axis  
     align-items------ cross axis  
 
@@ -39,11 +39,5 @@ div
     
     /* align-content-----crossaxis------controls space between flex lines 
                     --------------------values--all values of justify content and align-items except baseline*/
-    
-   
 
-   
-    
 }
-
-

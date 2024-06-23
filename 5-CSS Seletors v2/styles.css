@@ -1,0 +1,95 @@
+
+/* element selector--- selects all elements of that type on the page */
+div
+{
+    border:2px solid blue;
+    width: 70%;
+}
+
+/* id selector------to uniquely select an element */
+#firstpara
+{
+    background-color: orange;
+}
+
+
+/* class selector-----to group elements and then style it */
+.name
+{
+    background-color: yellow;
+} 
+
+/* attribute selector--- to select an element on the basis of presence of attribute*/
+a[href]
+{
+    background-color: green;
+    color:white;
+} 
+
+/* attribute selector to select an element on the basis of value of attribute */
+a[href="index.html"]
+{
+    background-color: red;
+}
+
+/* adjacent sibling -- to select the h2 that immediately comes after h3*/
+h3+h2
+{
+    color:aqua;
+}
+
+/* sub-sequent sibling ---to select all the h2 that are siblings of h3 */
+h3~h2
+{
+    color:aqua
+}
+
+/* child selector---select an element that its the child of parent */
+div>ul
+{
+    background-color: pink;
+}
+
+/* descendant selectors */
+div span
+{
+    font-size: larger;
+    color:red; 
+} 
+
+
+/* pseudo-element selector--- selects part of element */
+#para::first-line
+{
+    color:blueviolet
+}
+
+#para::first-letter
+{
+  font-size: 24px;
+  color:red;  
+} 
+
+/* pseudo-class selector ---select on the basis of elements state*/
+ li:hover 
+{
+   font-size: 24px;
+   color:red;  
+}
+
+input:focus
+{
+    background-color: skyblue;
+    border:2px solid blue;
+    outline: none;
+} */
+/* 
+li:nth-child(5)
+{
+    background-color: pink;
+}
+
+p:nth-child(1)
+{
+    background-color: yellow;
+} */
